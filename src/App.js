@@ -5,15 +5,16 @@ import Homepage from './components/Homepage';
 
 function App() {
   return (
-    <div>
+    <body class="d-flex flex-column min-vh-100 bg-grey">
       <header>
         <TopNavbar/>
       </header>
 
+      <hr/><hr/>
       <Homepage/>
 
       <Footer/>
-    </div>
+    </body>
   );
 }
 

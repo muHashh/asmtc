@@ -2,11 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="fixed-bottom">  
-      <footer className="page-footer text-center container-fluid py-3 text-light">
-        <p>
-          Made by me using React and Bootstrap
-        </p>
+    <div className="mt-auto pt-4">  
+      <footer className="page-footer text-center container-fluid py-4">
+          &copy; ASMTC 2020
       </footer>
     </div>
   );

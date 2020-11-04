@@ -1,11 +1,27 @@
 .navbar {
     /* -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999; */
-    background-color: #ffffff;
+    box-shadow: 0 8px 6px -6px #999;  */
+    background-color: #00407D;
 }
 
 footer {
-    background-color: #0059ff;
-    color: #fff;
+    background-color: #e7e7e7;
+    color: #505050;
 }
+
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
+.main-img {
+    filter: brightness(75%);
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.card-txt {
+    font-size: clamp(16px, 6vw, 15mm);
+    color: #FFFFFF;
+}
+
