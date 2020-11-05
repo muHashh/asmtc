@@ -16,7 +16,8 @@ footer {
 
 .main-img {
     filter: brightness(75%);
-    max-height: 50vh;
+    min-height: 60vh;
+    max-height: 100vh;
     object-fit: cover;
 }
 

@@ -6,11 +6,10 @@ import Homepage from './components/Homepage';
 function App() {
   return (
     <body class="d-flex flex-column min-vh-100 bg-grey">
-      <header>
+      <header className="py-4">
         <TopNavbar/>
       </header>
 
-      <hr/><hr/>
       <Homepage/>
 
       <Footer/>
